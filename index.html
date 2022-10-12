@@ -9,8 +9,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
+</head><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Column Preview Card Component Tailwind CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
 </head>
 <body class="bg-[#f2f2f2]">
+
+  <div class="m-5 flex xl:h-screen justify-center items-center space-x-4">
+    <main class="w-screen  mx-auto bg-[#313a49] w-[55rem] rounded-tl-md rounded-bl-md rounded-tr-md rounded-br-md grid xl:grid-cols-3">
+      <div class="bg-[#e28525] pt-16 pr-6 pb-16 pl-6 rounded-tr-md xl:rounded-tr-none rounded-tl-md xl:rounded-bl-md">
+        <picture>
+          <img src="./images/icon-sedans.svg" alt="sedans icon" class="mb-8" />
+        </picture>
+        <h1 class="text-white text-4xl font-semibold mb-5">SEDANS</h1>
+        <p class="text-white text-sm font-normal mb-16">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.
+        </p>
+        <a href="#" class="border-solid border-2 border-white px-6 py-3 font-semibold text-sm hover:text-white bg-white rounded-full mb-5 hover:bg-transparent text-[#e28525]">Learn More</a>
+      </div>
+      <div class="bg-[#016972] pt-16 pr-6 pb-16 pl-6">
+        <picture>
+          <img src="./images/icon-suvs.svg" alt="suvs icon" class="mb-8" />
+        </picture>
+        <h1 class="text-white text-4xl font-semibold mb-5">SUVS</h1>
+        <p class="text-white text-sm font-normal mb-16">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.
+        </p>
+        <a href="#" class="border-solid border-2 border-white px-6 py-3 font-semibold text-sm hover:text-white rounded-full mb-5 hover:bg-transparent bg-white text-[#016972]">Learn More</a>
+      </div>
+      <div class="bg-[#00403f] pt-16 pr-6 pb-16 pl-6 rounded-br-md rounded-bl-md xl:rounded-tr-md xl:rounded-br-md">
+        <picture>
+          <img src="./images/icon-luxury.svg" alt="luxury icon" class="mb-8" />
+        </picture>
+        <h1 class="text-white text-4xl font-semibold mb-5">LUXURY</h1>
+        <p class="text-white text-sm font-normal mb-16">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.
+        </p>
+        <a href="#" class="border-solid border-2 border-white px-6 py-3 font-semibold text-sm hover:text-white rounded-full mb-5 hover:bg-transparent bg-white text-[#00403f]">Learn More</a>
+      </div>
+    </main>
+  </div>
+  
+</body>
+</html><body class="bg-[#f2f2f2]">
     <div class="m-5 flex xl:h-screen justify-center items-center space-x-4">
       <main class="w-screen  mx-auto bg-[#313a49] w-[55rem] rounded-tl-md rounded-bl-md rounded-tr-md rounded-br-md grid xl:grid-cols-3">
         <div class="bg-[#e28525] pt-16 pr-6 pb-16 pl-6 rounded-tr-md xl:rounded-tr-none rounded-tl-md xl:rounded-bl-md">
